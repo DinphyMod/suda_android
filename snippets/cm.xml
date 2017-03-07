@@ -76,7 +76,7 @@
   <!-- DinphyMod Open Source additions -->
   <project path="bootable/recovery-twrp" name="DinphyMod/android_bootable_recovery-twrp" groups="pdk" remote="github" revision="mkn-mr1" />
   <project path="device/qcom/common" name="DinphyMod/android_device_qcom_common" remote="github" revision="mkn-mr1" />
-  <project path="device/xiaomi/ido" name="DinphyMod/suda_device_xiaomi_ido" remote="github" revision="mkn-mr1" />
+  <project path="device/xiaomi/ido" name="DinphyMod/suda_device_xiaomi_ido" remote="github" revision="cm-14.1" />
   <project path="device/xiaomi/ido-twrp" name="DinphyMod/mokee_device_xiaomi_ido-twrp" remote="github" revision="android-7.1" />
   <project path="external/busybox" name="DinphyMod/android_external_busybox" remote="github" revision="cm-14.1" />
   <project path="external/sony/boringssl-compat" name="DinphyMod/android_external_sony_boringssl-compat" remote="github" revision="mkn-mr1" />
