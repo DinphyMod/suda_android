@@ -25,7 +25,7 @@
            sync-c="true"
            sync-j="4" />
 
- -<!-- BEGIN SUDAMOD --> 
+  <!-- BEGIN SUDAMOD --> 
   <project path="build" remote="suda" revision="sm-3.1" name="SudaMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -54,8 +54,8 @@
   <project path="system/extras/su" remote="suda" revision="sm-3.1" name="SudaMod/android_system_extras_su" />   
   <project path="vendor/cmsdk" remote="suda" revision="cm-14.1" name="SudaMod/cm_platform_sdk" />
   <project path="device/qcom/sepolicy" revision="sm-3.1" name="SudaMod/android_device_qcom_sepolicy" />
-<!-- END SUDAMOD -->
-
+  <!-- END SUDAMOD -->
+  
   <!-- AOSP Projects -->
 
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
