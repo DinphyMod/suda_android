@@ -97,5 +97,9 @@
   <project path="vendor/sm" name="DinphyMod/suda_vendor_sm" remote="github" revision="sm-3.1" />
   <project path="vendor/xiaomi" name="DinphyMod/android_vendor_xiaomi_ido" remote="github" revision="android-7.1" />
 
+  <!-- add oms-patches extra -->
+  <project name="DinphyMod/android_vendor_extra" path="vendor/extra" remote="github" revision="cm-14.1" />
+  <project name="DinphyMod/android_packages_apps_ThemeInterfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="cm-14.1" />
+
 <!-- END Device:ido.dependencies -->
 </manifest>
