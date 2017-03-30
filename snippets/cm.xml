@@ -91,7 +91,7 @@
   <project path="frameworks/base" name="DinphyMod/suda_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="sm-3.1" />
   <project path="frameworks/native" name="DinphyMod/suda_frameworks_native" groups="pdk" remote="github" revision="sm-3.1" />
   <project path="kernel/xiaomi/msm8916" name="DinphyMod/android_kernel_xiaomi_msm8916" remote="github" revision="cm-14.1" />
-  <project path="packages/apps/Masquerade" name="DinphyMod/android_packages_apps_Masquerade" remote="github" revision="mkn-mr1" />
+  <project path="packages/apps/ThemeInterfacer" name="DinphyMod/android_packages_apps_Masquerade" remote="github" revision="mkn-mr1" />
   <project path="packages/apps/PackageInstaller" name="DinphyMod/suda_packages_apps_PackageInstaller" groups="pdk-fs" remote="github" revision="sm-3.1" />
   <project path="packages/apps/Recorder" name="DinphyMod/android_packages_apps_Recorder" remote="github" revision="mkn-mr1" />
   <project path="packages/resources/devicesettings" name="DinphyMod/android_packages_resources_devicesettings" remote="github" revision="mkn-mr1" />
