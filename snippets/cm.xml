@@ -97,6 +97,7 @@
   <project path="packages/apps/Recorder" name="DinphyMod/android_packages_apps_Recorder" remote="github" revision="mkn-mr1" />
   <project path="packages/resources/devicesettings" name="DinphyMod/android_packages_resources_devicesettings" remote="github" revision="mkn-mr1" />
   <project path="packages/apps/Venus" name="DinphyMod/android_packages_apps_Venus" remote="github" revision="mkn-mr1" />
+  <project path="prebuilts/sdk" name="DinphyMod/android_prebuilts_sdk" groups="pdk" remote="github" revision="n7.1.1" />
   <project path="vendor/sm" name="DinphyMod/suda_vendor_sm" remote="github" revision="sm-3.1" />
   <project path="vendor/xiaomi" name="DinphyMod/android_vendor_xiaomi_ido" remote="github" revision="android-7.1" />
 
