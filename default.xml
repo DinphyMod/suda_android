@@ -18,7 +18,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-7.1.2_r17" />
+           revision="refs/tags/android-7.1.2_r29" />
 
   <default revision="refs/heads/cm-14.1"
            remote="github"
@@ -28,7 +28,6 @@
   <!-- BEGIN SUDAMOD --> 
 
   <project path="android" remote="suda" revision="sm-3.1" name="SudaMod/android" />
-  <project path="external/chromium-webview" remote="suda" revision="sm-3.1" name="SudaMod/android_external_chromium-webview" groups="pdk" clone-depth="1" />
   <project path="external/suda/SudaSDKs" remote="suda" revision="sm-3.1" name="SudaMod/android_external_suda_SudaSDKs" />
   <project path="external/noto-fonts" remote="suda" revision="sm-3.1" name="SudaMod/android_external_noto-fonts" />
   <project path="frameworks/av" remote="suda" revision="sm-3.1" name="SudaMod/android_frameworks_av" groups="pdk" />
@@ -110,6 +109,7 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk" remote="aosp" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" remote="aosp" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
+  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk" remote="aosp" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
@@ -200,7 +200,7 @@
   <project path="external/libbrillo" name="platform/external/libbrillo" groups="pdk" remote="aosp" />
   <project path="external/libcap" name="platform/external/libcap" groups="pdk" remote="aosp" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk" remote="aosp" />
-  <project path="external/libchrome" name="platform/external/libchrome" groups="pdk" remote="aosp" />
+  <project path="external/libchrome" name="LineageOS/android_external_libchrome" groups="pdk" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
   <project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" remote="aosp" />
@@ -272,7 +272,6 @@
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" remote="aosp" />
   <project path="external/okhttp" name="LineageOS/android_external_okhttp" groups="pdk" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/opencv3" name="platform/external/opencv3" groups="pdk" remote="aosp" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk" remote="aosp" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" remote="aosp" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" remote="aosp" />
