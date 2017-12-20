@@ -10,7 +10,6 @@
   <project path="external/htop" name="LineageOS/android_external_htop" />
   <project path="external/koush/ion" name="LineageOS/ion" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
-  <project path="external/libphonenumbergoogle" name="LineageOS/android_external_libphonenumbergoogle" />
   <project path="external/libtar" name="LineageOS/android_external_libtar" />
   <project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />
   <project path="external/lzo" name="LineageOS/android_external_lzo" />
@@ -32,7 +31,7 @@
   <project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />
   <project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />
-  <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
+  <!--project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />-->
   <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
@@ -41,7 +40,6 @@
   <project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" />
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />
   <project path="packages/services/CMAudioService" name="LineageOS/android_packages_services_CMAudioService" />
-  <project path="packages/services/LiveLockScreenService" name="LineageOS/android_packages_services_LiveLockScreenService" />
   <project path="packages/services/WeatherService" name="LineageOS/android_packages_services_WeatherService" />
   <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" />
 
@@ -80,27 +78,27 @@
   <project path="build" name="DinphyMod/suda_build" groups="pdk,tradefed" remote="github" revision="sm-3.1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bootable/recovery-twrp" name="DinphyMod/android_bootable_recovery-twrp" groups="pdk" remote="github" revision="mkn-mr1" />
+  <!--project path="bootable/recovery-twrp" name="DinphyMod/android_bootable_recovery-twrp" groups="pdk" remote="github" revision="mkn-mr1" />-->
   <project path="device/qcom/common" name="DinphyMod/android_device_qcom_common" remote="github" revision="mkn-mr1" />
   <project path="device/xiaomi/ido" name="DinphyMod/suda_device_xiaomi_ido" remote="github" revision="cm-14.1" />
-  <project path="device/xiaomi/ido-twrp" name="DinphyMod/android_device_xiaomi_ido-twrp" remote="github" revision="sm-3.1" />
-  <project path="external/busybox" name="DinphyMod/android_external_busybox" remote="github" revision="cm-14.1" />
+  <!--project path="device/xiaomi/ido-twrp" name="DinphyMod/android_device_xiaomi_ido-twrp" remote="github" revision="sm-3.1" />-->
+  <!--project path="external/busybox" name="DinphyMod/android_external_busybox" remote="github" revision="cm-14.1" />-->
   <project path="external/sony/boringssl-compat" name="DinphyMod/android_external_sony_boringssl-compat" remote="github" revision="mkn-mr1" />
   <project path="external/stlport" name="DinphyMod/android_external_stlport" remote="github" revision="mkn-mr1" />
-  <project path="frameworks/base" name="DinphyMod/suda_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="sm-3.1" />
-  <project path="frameworks/native" name="DinphyMod/suda_frameworks_native" groups="pdk" remote="github" revision="sm-3.1" />
-  <project path="kernel/xiaomi/msm8916" name="DinphyMod/android_kernel_xiaomi_msm8916" remote="github" revision="cm-14.1" />
-  <project path="packages/apps/ThemeInterfacer" name="DinphyMod/android_packages_apps_Masquerade" remote="github" revision="mkn-mr1" />
+  <!--project path="frameworks/base" name="DinphyMod/suda_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="sm-3.1" />-->
+  <!--project path="frameworks/native" name="DinphyMod/suda_frameworks_native" groups="pdk" remote="github" revision="sm-3.1" />-->
+  <project path="kernel/xiaomi/msm8916" name="LineageOS/android_kernel_xiaomi_msm8916" remote="github" revision="cm-14.1" />
+  <!--project path="packages/apps/ThemeInterfacer" name="DinphyMod/android_packages_apps_Masquerade" remote="github" revision="mkn-mr1" />-->
   <project path="packages/apps/PackageInstaller" name="DinphyMod/suda_packages_apps_PackageInstaller" groups="pdk-fs" remote="github" revision="sm-3.1" />
   <project path="packages/apps/Recorder" name="DinphyMod/android_packages_apps_Recorder" remote="github" revision="mkn-mr1" />
   <project path="packages/resources/devicesettings" name="DinphyMod/android_packages_resources_devicesettings" remote="github" revision="mkn-mr1" />
   <project path="packages/apps/Venus" name="DinphyMod/android_packages_apps_Venus" remote="github" revision="mkn-mr1" />
-  <project path="prebuilts/sdk" name="DinphyMod/android_prebuilts_sdk" groups="pdk" remote="github" revision="n7.1.1" />
-  <project path="vendor/sm" name="DinphyMod/suda_vendor_sm" remote="github" revision="sm-3.1" />
-  <project path="vendor/xiaomi" name="DinphyMod/android_vendor_xiaomi_ido" remote="github" revision="android-7.1" />
+  <!--project path="prebuilts/sdk" name="DinphyMod/android_prebuilts_sdk" groups="pdk" remote="github" revision="n7.1.1" />-->
+  <!--project path="vendor/sm" name="DinphyMod/suda_vendor_sm" remote="github" revision="sm-3.1" />-->
+  <project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="github" revision="cm-14.1" />
 
   <!-- add oms-patches extra -->
-  <project name="DinphyMod/android_vendor_extra" path="vendor/extra" remote="github" revision="cm-14.1" />
+  <!--project name="DinphyMod/android_vendor_extra" path="vendor/extra" remote="github" revision="cm-14.1" />-->
 
 <!-- END Device:ido.dependencies -->
 </manifest>
