@@ -115,4 +115,12 @@
   <!-- Tools -->
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
+  
+  <!-- other -->
+  <project path="device/xiaomi/ido" name="ido-dev/android_device_xiaomi_ido" remote="github" revision="lineage-15.1" />
+  <project path="kernel/xiaomi/msm8916" name="ido-dev/android_kernel_xiaomi_msm8916" remote="github" revision="lineage-15.1" />
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-15.1" />
+  <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="lineage-15.1" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-15.1" />
+  <project path="vendor/xiaomi" name="ido-dev/proprietary_vendor_xiaomi" remote="github" revision="lineage-15.1" />
 </manifest>
