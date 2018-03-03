@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Hardware repos -->
+  <remove-project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8084" />
+  <remove-project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8960" />
+  <remove-project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8974" />
+  <remove-project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8994" />
+  <remove-project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8996" />
+  <remove-project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8998" />
+  <remove-project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8084" />
+  <remove-project path="hardware/qcom/display-caf/msm8952" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8952" />
+  <remove-project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8960" />
+  <remove-project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8974" />
+  <remove-project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8994" />
+  <remove-project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8996" />
+  <remove-project path="hardware/qcom/display-caf/msm8998" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8998" />
+  <remove-project path="hardware/qcom/media-caf/apq8084" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8084" />
+  <remove-project path="hardware/qcom/media-caf/msm8960" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8960" />
+  <remove-project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8974" />
+  <remove-project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8994" />
+  <remove-project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8996" />
+  <remove-project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8998" />
+</manifest>

@@ -554,7 +554,7 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/sudamod.xml" />
-
+  <include name="snippets/remove.xml" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
 </manifest>
